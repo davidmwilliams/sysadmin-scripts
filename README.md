@@ -1,14 +1,14 @@
 # sysadmin-scripts
 Useful scripts for systems administrators
 
-CreateNewServerADGroups.ps1
+#### CreateNewServerADGroups.ps1
 Create two new AD groups for a server, to control who has remote access to it, and who has admin access on it.
 
-IsPortOpen.ps1
+#### IsPortOpen.ps1
 Determine if a port is open on a particular remote server, and seeks to identify what service is using it.
 
-WhoShutItDown.ps1
+#### WhoShutItDown.ps1
 Identifies who shut the server down.
 
-WhyUserLockedOut.ps1
+#### WhyUserLockedOut.ps1
 Seeks to identify why a user's account is locked.
