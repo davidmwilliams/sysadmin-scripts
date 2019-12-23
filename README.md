@@ -5,7 +5,7 @@ Useful scripts for systems administrators
 Create two new AD groups for a server, to control who has remote access to it, and who has admin access on it.
 
 #### IsPortOpen.ps1
-Determine if a port is open on a particular remote server, and seeks to identify what service is using it.
+Determine if a port is open on a particular remote server.
 
 #### WhoShutItDown.ps1
 Identifies who shut the server down.
