@@ -4,6 +4,9 @@ Useful scripts for systems administrators
 #### CreateNewServerADGroups.ps1
 Create two new AD groups for a server, to control who has remote access to it, and who has admin access on it.
 
+#### GetRandomPassword.ps1
+Generates a random strong password.
+
 #### IsPortOpen.ps1
 Determine if a port is open on a particular remote server.
 
