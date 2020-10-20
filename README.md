@@ -10,7 +10,11 @@ Generates a random strong password.
 #### IsPortOpen.ps1
 Determine if a port is open on a particular remote server.
 
-### UserLogons.vbs
+#### Set-WindowsSleepSettings.ps1
+Configures the sleep settings for the current power plan,
+defaults to sleeping after an hour idle on battery and never sleeping when plugged in.
+
+#### UserLogons.vbs
 Reports on who didn't log in today, across all domain controllers
 
 #### WhoShutItDown.ps1
