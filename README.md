@@ -1,24 +1,18 @@
 # sysadmin-scripts
 Useful scripts for systems administrators
 
-#### CreateNewServerADGroups.ps1
-Create two new AD groups for a server, to control who has remote access to it, and who has admin access on it.
+## Active Directory ##
+* CreateNewServerADGroups.ps1 - create two new AD groups for a server, to control who has remote access to it, and who has admin access on it
+* UserLogons.vbs - reports on who didn't log in today, across all domain controllers
+* WhyUserLockedOut.ps1 - seeks to identify why a user's account is locked.
 
-#### GetRandomPassword.ps1
-Generates a random strong password.
+## Exchange / Office 365 ##
+* WhatMailboxesForwardWhere.ps1 - check where all your O365 mailboxes are being forwarded to
 
-#### IsPortOpen.ps1
-Determine if a port is open on a particular remote server.
+## Networking ##
+* IsPortOpen.ps1 - determine if a port is open on a particular remote server
 
-#### Set-WindowsSleepSettings.ps1
-Configures the sleep settings for the current power plan,
-defaults to sleeping after an hour idle on battery and never sleeping when plugged in.
-
-#### UserLogons.vbs
-Reports on who didn't log in today, across all domain controllers
-
-#### WhoShutItDown.ps1
-Identifies who shut the server down.
-
-#### WhyUserLockedOut.ps1
-Seeks to identify why a user's account is locked.
+## Miscellaneous ##
+* GetRandomPassword.ps1 - generates a random strong password
+* Set-WindowsSleepSettings.ps1 - Configures the sleep settings for the current power plan, defaults to sleeping after an hour idle on battery and never sleeping when plugged in.
+* WhoShutItDown.ps1 - identifies who shut the server down.
